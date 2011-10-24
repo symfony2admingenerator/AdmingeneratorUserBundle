@@ -4,7 +4,7 @@ namespace Admingenerator\UserBundle\Twig\TokenParser;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
-class ExtendsMyConfiguredLayoutTokenParser  extends \Twig_TokenParser
+class ExtendsMyConfiguredLayoutTokenParser extends \Twig_TokenParser
 {
     protected $container;
 
