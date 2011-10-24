@@ -20,7 +20,7 @@ class AdmingeneratorUserExtension extends Extension
         $configuration = new Configuration();
         $config = $processor->processConfiguration($configuration, $configs);
 
-        if(isset($config['login_template'])) {
+        if (isset($config['login_template'])) {
             $container->setParameter('admingenerator.user_login_template', $config['login_template']);
         }
     }

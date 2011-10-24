@@ -22,8 +22,8 @@ Follow the bundle documentation : [https://github.com/FriendsOfSymfony/FOSUserBu
 
 ````
 $loader->registerNamespaces(array(
-	'FOS'              => __DIR__.'/../vendor/bundles',
-	'Admingenerator'        =>  __DIR__.'/../vendor/bundles',
+    'FOS'              => __DIR__.'/../vendor/bundles',
+    'Admingenerator'        =>  __DIR__.'/../vendor/bundles',
 ````
 ### Configure the base layout to use for the login form
 
@@ -31,7 +31,7 @@ In config.yml
 
 ````
 admingenerator_user:
-     login_template: AdmingeneratorGeneratorBundle::base_admin.html.twig
+     login_template: AdmingeneratorGeneratorBundle::base_login.html.twig
 ````
 
 ## Use the twig extension in your projects :

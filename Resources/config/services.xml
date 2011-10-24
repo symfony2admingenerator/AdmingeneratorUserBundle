@@ -8,7 +8,7 @@
         <!--  Theme for login -->
         <parameter key="admingenerator.user_login_template">AdmingeneratorGeneratorBundle::base_login.html.twig</parameter>
     </parameters>
-    
+
     <services>
         <!-- Twig -->
         <service id="twig.extension.admingenerator.extends_my_configured_layout" class="Admingenerator\UserBundle\Twig\Extension\ExtendsMyConfiguredLayoutExtension" public="false">
@@ -18,6 +18,6 @@
                 <argument type="service" id="service_container" />
             </call>
         </service>
-        
+
     </services>
 </container>
