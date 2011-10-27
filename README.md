@@ -1,4 +1,4 @@
-# Symfony2 Admin Generator: User Part
+# Symfony2 Admin Generator: User Part  ![project status](http://stillmaintained.com/cedriclombardot/AdmingeneratorUserBundle.png)#
 
 This package is a part of the [Symfony2 Admin Generator](https://github.com/cedriclombardot/AdmingeneratorGeneratorBundle) based on YAML configuration and Twig templating.
 But could also work standalone.
