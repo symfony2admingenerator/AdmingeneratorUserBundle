@@ -25,6 +25,15 @@ $loader->registerNamespaces(array(
     'FOS'              => __DIR__.'/../vendor/bundles',
     'Admingenerator'        =>  __DIR__.'/../vendor/bundles',
 ````
+
+### Enable the bundle in AppKernel
+
+```` php
+ $bundles = array(
+    // ....
+    new Admingenerator\UserBundle\AdmingeneratorUserBundle(),
+````
+
 ### Configure the base layout to use for the login form
 
 In config.yml
