@@ -6,5 +6,9 @@
             "name": "Cedric LOMBARDOT",
             "email": "cedric.lombardot@gmail.com"
         }
-    ]
+    ],
+    "target-dir": "Admingenerator/UserBundle",
+    "autoload": {
+        "psr-0": { "Admingenerator\\UserBundle": "" }
+    }
 }
