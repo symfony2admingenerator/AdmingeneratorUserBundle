@@ -1,5 +1,5 @@
 {
-    "name": "cedriclombardot/adminingenerator-user-bundle",
+    "name": "cedriclombardot/admingenerator-user-bundle",
     "description": "This package is a part of the Symfony2 Admin Generator based on YAML configuration and Twig templating. But could also work standalone.",
     "authors": [
         {
