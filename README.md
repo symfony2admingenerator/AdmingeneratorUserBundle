@@ -1,6 +1,6 @@
 # Symfony2 Admin Generator: User Part  ![project status](http://stillmaintained.com/cedriclombardot/AdmingeneratorUserBundle.png)#
 
-This package is a part of the [Symfony2 Admin Generator](https://github.com/cedriclombardot/AdmingeneratorGeneratorBundle) based on YAML configuration and Twig templating.
+This package is a part of the [Symfony2 Admin Generator](https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle) based on YAML configuration and Twig templating.
 But could also work standalone.
 
 It will allow you to associate to the [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle) a base layout configured throw a config in the config.yml
@@ -11,7 +11,7 @@ It will allow you to associate to the [FOSUserBundle](https://github.com/Friends
 ### Clone the repo
 
 ````
-git submodule add https://github.com/cedriclombardot/AdmingeneratorUserBundle vendor/Admingenerator/UserBundle
+git submodule add https://github.com/symfony2admingenerator/AdmingeneratorUserBundle vendor/Admingenerator/UserBundle
 ````
 
 ### Setup the FOSUserBundle
