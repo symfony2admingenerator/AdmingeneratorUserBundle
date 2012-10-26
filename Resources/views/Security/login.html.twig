@@ -8,7 +8,7 @@
 <form action="{{ path("fos_user_security_check") }}" method="post" class="login-form">
 	<input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
 	<fieldset>
-		<legend>{{ 'security.signin'|trans({}, 'FOSUserBundle') }}</legend>
+		<legend>{{ 'security.authentication'|trans({}, 'FOSUserBundle') }}</legend>
 		
 		<div class="clearfix">
 		    <label for="username">{{ 'security.login.username'|trans({}, 'FOSUserBundle') }}</label>
