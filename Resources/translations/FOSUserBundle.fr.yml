@@ -1,1 +1,2 @@
-security.signin: Se connecter
+security:
+  authentication:   Authentification
