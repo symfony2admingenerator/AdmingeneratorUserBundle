@@ -6,7 +6,7 @@
 
     <parameters>
         <!--  Theme for login -->
-        <parameter key="admingenerator.user_login_template">AdmingeneratorOldThemeBundle::base_login.html.twig</parameter>
+        <parameter key="admingenerator.user_login_template">AdmingeneratorGeneratorBundle::base_login.html.twig</parameter>
     </parameters>
 
     <services>
