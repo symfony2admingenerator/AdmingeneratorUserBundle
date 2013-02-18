@@ -7,6 +7,9 @@
             "email": "cedric.lombardot@gmail.com"
         }
     ],
+    "type": "symfony-bundle",
+    "homepage": "http://symfony2admingenerator.org/",
+    "license": "MIT",
     "target-dir": "Admingenerator/UserBundle",
     "autoload": {
         "psr-0": { "Admingenerator\\UserBundle": "" }
