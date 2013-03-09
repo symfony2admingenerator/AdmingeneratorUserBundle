@@ -24,14 +24,6 @@ git submodule add https://github.com/symfony2admingenerator/AdmingeneratorUserBu
 
 Follow the bundle documentation : [https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/index.md](https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Resources/doc/index.md)
 
-### Configure the autoload
-
-```php
-$loader->registerNamespaces(array(
-    'FOS'                   =>  __DIR__.'/../vendor/bundles',
-    'Admingenerator'        =>  __DIR__.'/../vendor/bundles',
-```
-
 ### Enable the bundle in AppKernel
 
 ```php
