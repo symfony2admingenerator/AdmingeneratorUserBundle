@@ -3,6 +3,9 @@
 
 [![KnpBundles Badge](http://knpbundles.com/symfony2admingenerator/AdmingeneratorGeneratorBundle/badge-short)](http://knpbundles.com/symfony2admingenerator/AdmingeneratorGeneratorBundle)
 ![project status](http://stillmaintained.com/cedriclombardot/AdmingeneratorUserBundle.png)
+[![build status](https://secure.travis-ci.org/symfony2admingenerator/AdmingeneratorUserBundle.png)](http://travis-ci.org/symfony2admingenerator/AdmingeneratorUserBundle)
+[![Latest Stable Version](https://poser.pugx.org/cedriclombardot/admingenerator-user-bundle/v/stable.png)](https://packagist.org/packages/cedriclombardot/admingenerator-user-bundle)
+[![Total Downloads](https://poser.pugx.org/cedriclombardot/admingenerator-user-bundle/downloads.png)](https://packagist.org/packages/cedriclombardot/admingenerator-user-bundle)
 
 This package is a part of the [Symfony2 Admin Generator](https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle) based on YAML configuration and Twig templating.
 
@@ -14,11 +17,34 @@ Don't miss any updates from **Symfony2 Admin Generator**! Join Twitter today and
 
 ## How to setup
 
-### Clone the repo
+# Installation via composer
+---------------------------------------
 
+[go back to Table of contents][back-to-index]
+
+[back-to-index]: https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle/blob/master/Resources/doc/documentation.md#1-installation
+
+### 1. Download files
+
+Add Admingenerator to your `composer.json`:
+
+#### v1.0 branch for Twitter Bootstrap2 styles
+```json
+"require": {
+    "cedriclombardot/admingenerator-user-bundle": "~1.0"
+},
 ```
-git submodule add https://github.com/symfony2admingenerator/AdmingeneratorUserBundle vendor/Admingenerator/UserBundle
+
+#### v1.1 branch for Twitter Bootstrap3 styles
+```json
+"require": {
+    "cedriclombardot/admingenerator-user-bundle": "~1.1"
+},
 ```
+
+Then run `php composer.phar update` command.
+
+> **Note:** The branches reflect branches of [AdmingeneratorGeneratorBundle](https://github.com/symfony2admingenerator/AdmingeneratorGeneratorBundle).
 
 ### Setup the FOSUserBundle
 
