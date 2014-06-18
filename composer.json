@@ -1,17 +1,30 @@
 {
     "name": "cedriclombardot/admingenerator-user-bundle",
-    "description": "This package is a part of the Symfony2 Admin Generator based on YAML configuration and Twig templating. But could also work standalone.",
+    "description": "FOSUserBundle integration for Symfony2Admingenerator.",
+    "type": "symfony-bundle",
+    "homepage": "http://symfony2admingenerator.org/",
+    "license": "MIT",
     "authors": [
         {
             "name": "Cedric LOMBARDOT",
             "email": "cedric.lombardot@gmail.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "http://github.com/cedriclombardot/AdmingeneratorUserBundle/contributors"
         }
     ],
-    "type": "symfony-bundle",
-    "homepage": "http://symfony2admingenerator.org/",
-    "license": "MIT",
+    "require": {
+        "cedriclombardot/admingenerator-generator-bundle": ">= 1.1",
+        "friendsofsymfony/user-bundle": "*"
+    },
     "target-dir": "Admingenerator/UserBundle",
     "autoload": {
         "psr-0": { "Admingenerator\\UserBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
     }
 }
