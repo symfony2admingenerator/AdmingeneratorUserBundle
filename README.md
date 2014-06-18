@@ -3,7 +3,6 @@
 
 [![KnpBundles Badge](http://knpbundles.com/symfony2admingenerator/AdmingeneratorGeneratorBundle/badge-short)](http://knpbundles.com/symfony2admingenerator/AdmingeneratorGeneratorBundle)
 ![project status](http://stillmaintained.com/cedriclombardot/AdmingeneratorUserBundle.png)
-[![build status](https://secure.travis-ci.org/symfony2admingenerator/AdmingeneratorUserBundle.png)](http://travis-ci.org/symfony2admingenerator/AdmingeneratorUserBundle)
 [![Latest Stable Version](https://poser.pugx.org/cedriclombardot/admingenerator-user-bundle/v/stable.png)](https://packagist.org/packages/cedriclombardot/admingenerator-user-bundle)
 [![Total Downloads](https://poser.pugx.org/cedriclombardot/admingenerator-user-bundle/downloads.png)](https://packagist.org/packages/cedriclombardot/admingenerator-user-bundle)
 
