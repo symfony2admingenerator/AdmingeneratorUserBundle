@@ -63,7 +63,7 @@ In config.yml
 
 ```yaml
 admingenerator_user:
-     login_template: AdmingeneratorGeneratorBundle::base_login.html.twig
+     login_template: AdmingeneratorGeneratorBundle::base_admin.html.twig
 ```
 
 ## Use the twig extension in your projects :
